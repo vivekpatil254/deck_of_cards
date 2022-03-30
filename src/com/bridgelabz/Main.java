@@ -1,8 +1,16 @@
 package com.bridgelabz;
 
+import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+       DeckOfCards cards=new DeckOfCards();
+       cards.shuffle();
+       cards.displayCards();
+
+
+
     }
 }
